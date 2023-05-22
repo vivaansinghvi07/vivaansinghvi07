@@ -1,5 +1,3 @@
-### Hi there 👋
-
 ```python
 class Vivaan(Person):
     def __init__(self):
