@@ -1,4 +1,4 @@
-```python3
+```python
 class Vivaan(Person):
     def __init__(self):
         self.age = 16
@@ -18,8 +18,8 @@ class Vivaan(Person):
                 "Learning": ["German"]
             },
             "Programming": {
-                "Decent": ["python", "java", "javascript"],
-                "Learning": ["c", "c++", "c#"]
+                "Decent": ["Python", "Java", "Javascript"],
+                "Learning": ["C", "C++", "C#"]
             }
         }
 
@@ -69,7 +69,7 @@ class Vivaan(Person):
                 "Sudoku Solver": "https://github.com/vivaansinghvi07/sudoku-solver",
                 "Reaction Balancer": "https://github.com/vivaansinghvi07/chemical-equation-balancer",
                 "Tic Tac Toe Bot": "https://github.com/vivaansinghvi07/tic-tac-toe",
-                "Checkers Bot": "https://github.com/vivaansinghvi07/checkers-bot,
+                "Checkers Bot": "https://github.com/vivaansinghvi07/checkers-bot",
             }
         elif key == "Terminal Games":
             return {
