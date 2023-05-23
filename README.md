@@ -8,7 +8,7 @@ class Vivaan(Person):
 
     @property 
     def hobbies(self) -> list[str]:
-        return ["programming", "working out", "biking", "gaming", "drumming"]
+        return ["Programming", "Working Out", "Biking", "Gaming", "Drumming"]
 
     @property
     def languages(self) -> dict[str, dict[str, list[str]]]:
