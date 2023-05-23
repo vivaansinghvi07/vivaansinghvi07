@@ -1,6 +1,6 @@
 ```python
 class Vivaan(Person):
-    def __init__(self):
+    def __init__(self) -> None:
         self.age = 16
         self.pronouns = ("he", "him")  
         self.nationality = "Indian"
@@ -11,7 +11,7 @@ class Vivaan(Person):
         return ["programming", "working out", "biking", "gaming", "drumming"]
 
     @property
-    def languages(self) -> dict[str, dict[str, list]]:
+    def languages(self) -> dict[str, dict[str, list[str]]]:
         return {
             "Real Life": {
                 "Fluent": ["English", "Hindi"],
@@ -24,7 +24,7 @@ class Vivaan(Person):
         }
 
     @property
-    def contact(self) -> dict[str, str | list[str]]:
+    def contact(self) -> dict[str, list[str]]:
         return {
             "Email": ["vivaansinghvi8@gmail.com", "singhvi.vivaan@gmail.com"]
         }
