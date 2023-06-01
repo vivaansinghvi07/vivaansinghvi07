@@ -31,7 +31,7 @@ class Vivaan(Person):
         }
 
     @property
-    def favorite_projects(self, key: str) -> dict[str, tuple(str)]: 
+    def favorite_projects(self) -> dict[str, tuple(str)]: 
         return {
             "MandelPlot": (
                 "Creates beautiful, interactive graphs of the Mandelbrot Set", 
