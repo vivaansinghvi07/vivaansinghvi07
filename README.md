@@ -39,7 +39,7 @@ class Vivaan(Person):
             ),
             "Pynterface": (
                 "Useful tools for terminal input-output",
-                "https://github.com/vivaansinghvi07/pynterface
+                "https://github.com/vivaansinghvi07/pynterface"
             ),
             "KenKen Solver": (
                 "My first image processing project, which solves a KenKen puzzle",
