@@ -30,59 +30,29 @@ class Vivaan(Person):
             "Email": ["vivaansinghvi8@gmail.com", "singhvi.vivaan@gmail.com"]
         }
 
-    def projects(self, key: str) -> dict[str, str] | str: 
-        if key == "Websites":
-            return {
-                "MandelPlot":               "https://vivaansinghvi07.github.io/mandelplot/",
-                "AP Statistics Website":    "https://vivaans-statistics-site.000webhostapp.com/index.php",
-                "Connect Four":             "https://vivaansinghvi07.github.io/connect-four/",
-                "Get Javascript":           "https://vivaansinghvi07.github.io/get-javascript/",
-                "Aim Lab":                  "https://vivaansinghvi07.github.io/aim-trainer/",
-                "Wordle Cheater":           "https://vivaansinghvi07.github.io/wordle-cheater/"
-            }
-        elif key == "Packages":
-            return {
-                "UniSci":                   "https://pypi.org/project/unisci/",
-                "Pynterface":               "https://pypi.org/project/pynterface/"
-            }
-        elif key == "Math":
-            return { 
-                "Rotation":                 "https://github.com/vivaansinghvi07/rotation",
-                "Fractal Graphs":           "https://github.com/vivaansinghvi07/fractal-points",
-                "Mandelbrot GIFs":          "https://github.com/vivaansinghvi07/mandelbrot-gifs",
-                "Misiurewicz Points":       "https://github.com/vivaansinghvi07/misiurewicz-points",
-                "Riemann Sums":             "https://github.com/vivaansinghvi07/riemann-sums"
-            }
-        elif key == "Machine Learning":
-            return {
-                "Cancer Prediction":        "https://github.com/vivaansinghvi07/cancer-prediction"
-                "Stock Prediction":         "https://github.com/vivaansinghvi07/stock-predictor",
-                "AI Text Detection":        "https://github.com/vivaansinghvi07/ai-text-detection"
-            }
-        elif key == "Research and Data Analytics":
-            return {
-                "GMO Scientific Consensus": "https://github.com/vivaansinghvi07/gmo-scientific-consensus",
-                "Income on SAT Scores":     "https://github.com/vivaansinghvi07/income-vs-sat-scores"
-            }
-        elif key == "Algorithms":
-            return {
-                "Encryption":               "https://github.com/vivaansinghvi07/encryption",
-                "Sudoku Solver":            "https://github.com/vivaansinghvi07/sudoku-solver",
-                "Reaction Balancer":        "https://github.com/vivaansinghvi07/chemical-equation-balancer",
-                "Tic Tac Toe Bot":          "https://github.com/vivaansinghvi07/tic-tac-toe",
-                "Checkers Bot":             "https://github.com/vivaansinghvi07/checkers-bot",
-            }
-        elif key == "Terminal Games":
-            return {
-                "Typing Test":              "https://github.com/vivaansinghvi07/typing-test",
-                "Wordle":                   "https://github.com/vivaansinghvi07/wordle",
-                "Minesweeper":              "https://github.com/vivaansinghvi07/minesweeper",
-                "Tower of Hanoi":           "https://github.com/vivaansinghvi07/tower-of-hanoi",
-                "Chess":                    "https://github.com/vivaansinghvi07/chess",
-                "Tower of Hanoi v2":        "https://github.com/vivaansinghvi07/tower-of-hanoi-v2",
-                "Hangman":                  "https://github.com/vivaansinghvi07/hangman"
-            }
-        else: 
-            return "Other projects not listed here!"
-
+    @property
+    def favorite_projects(self, key: str) -> dict[str, tuple(str)]: 
+        return {
+            "MandelPlot": (
+                "Creates beautiful, interactive graphs of the Mandelbrot Set", 
+                "https://vivaansinghvi07.github.io/mandelplot"
+            ),
+            "Pynterface": (
+                "Useful tools for terminal input-output",
+                "https://github.com/vivaansinghvi07/pynterface
+            ),
+            "KenKen Solver": (
+                "My first image processing project, which solves a KenKen puzzle",
+                "https://github.com/vivaansinghvi07/kenken-solver"
+            ),
+            "Statistics Website": (
+                "Website catered towards AP Statistics, with all units except for the last one",
+                "https://vivaans-statistics-site.000webhostapp.com/index.php"
+            ),
+            "Stock Predictor": (
+                "My attempt at creating a simple machine learning model to predict stock activity",
+                "https://github.com/vivaansinghvi07/stock-predictor"
+            ),
+            ...
+        }
 ```
