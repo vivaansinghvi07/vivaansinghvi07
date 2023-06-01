@@ -19,7 +19,7 @@ class Vivaan(Person):
                 "Learning": ["German"]
             },
             "Programming": {
-                "Decent": ["Python", "Java", "Javascript"],
+                "Decent": ["Python", "Java", "JavaScript"],
                 "Learning": ["C", "C++", "C#"]
             }
         }
