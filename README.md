@@ -53,6 +53,10 @@ class Vivaan(Person):
                 "My attempt at creating a simple machine learning model to predict stock activity",
                 "https://github.com/vivaansinghvi07/stock-predictor"
             ),
+            "Rocket League Custom Quickchats": (
+                "Macros for custom chats in my favorite game Rocket League",
+                "https://github.com/vivaansinghvi07/rocket-league-custom-quickchats"
+            )
             ...
         }
 ```
