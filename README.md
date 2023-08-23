@@ -58,7 +58,7 @@ class Vivaan(Person):
                 "https://github.com/vivaansinghvi07/rocket-league-custom-quickchats"
             ),
             "vivaansinghvi07.github.io": (
-                "My personal website, built with React and TypeScript"
+                "My personal website, built with React and TypeScript",
                 "https://vivaansinghvi07.github.io"
             )      
             ...
