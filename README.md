@@ -56,7 +56,11 @@ class Vivaan(Person):
             "Rocket League Custom Quickchats": (
                 "Macros for custom chats in my favorite game Rocket League",
                 "https://github.com/vivaansinghvi07/rocket-league-custom-quickchats"
-            )
+            ),
+            "vivaansinghvi07.github.io": (
+                "My personal website, built with React and TypeScript"
+                "https://vivaansinghvi07.github.io"
+            )      
             ...
         }
 ```
