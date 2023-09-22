@@ -20,7 +20,7 @@ class Vivaan(Person):
             },
             "Programming": {
                 "Decent": ["Python", "Java", "JavaScript"],
-                "Learning": ["C", "C++", "C#"]
+                "Learning": ["C", "C++", "C#", "Shell"]
             }
         }
 
