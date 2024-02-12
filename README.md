@@ -19,9 +19,9 @@ class Vivaan(Person):
                 "Fluent": ["English", "Hindi"],
                 "Learning": ["German"]
             },
-            "Programming": {
-                "Decent": ["Python", "Java", "JavaScript"],
-                "Learning": ["C", "C++", "C#", "Shell"]
+            "Programming": { 
+                "Decent": ["Python", "JavaScript"],
+                "Amateur": ["C", "C++", "C#", "Shell", "Java", "TypeScript"]
             }
         }
 
