@@ -28,6 +28,6 @@ class Vivaan(Person):
     @property
     def contact(self) -> dict[str, list[str]]:
         return {
-            "Email": ["vivaansinghvi8@gmail.com", "singhvi.vivaan@gmail.com"]
+            "Email": ["singhvi.vivaan@gmail.com", "vsinghvi@umich.edu"]
         }
 ```
