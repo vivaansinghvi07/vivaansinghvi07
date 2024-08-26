@@ -2,7 +2,7 @@
 class Vivaan(Person):
 
     def __init__(self) -> None:
-        super().__init__(age=16, pronouns=('he', 'him'), nationality="Indian", citizenship="American")
+        super().__init__(age=17, pronouns=('he', 'him'), nationality="Indian", citizenship="American")
 
     @property
     def website(self) -> str:
@@ -20,8 +20,8 @@ class Vivaan(Person):
                 "Learning": ["German"]
             },
             "Programming": { 
-                "Decent": ["Python", "JavaScript"],
-                "Amateur": ["C", "C++", "C#", "Shell", "Java", "TypeScript"]
+                "Decent": ["Python", "JavaScript", "C"],
+                "Amateur": ["C++", "C#", "Shell", "Java", "TypeScript"]
             }
         }
 
